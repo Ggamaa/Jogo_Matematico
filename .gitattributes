@@ -1,2 +1,7 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Scripts: finais de linha fixos por sistema
+*.bat text eol=crlf
+*.sh  text eol=lf
+*.java text
